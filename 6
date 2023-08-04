@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	 	inteiro a = 0
+	 	inteiro b = 1
+	 	inteiro c = a + b
+	 	inteiro limite_termo = 0
+
+	 	escreva("você quer que eu te mostre a sequência de fibonacci até qual termo?")
+	 	leia(limite_termo)
+
+	 	escreva(a, "\n")
+	 	escreva(b, "\n")
+	 	
+
+		para(inteiro i = 0; i < limite_termo - 2 ; i ++){
+
+
+			a = b
+			b = c	
+			
+			escreva(c, "\n") 
+
+			c = a + b
+	 		
+	 	}
+	}
+}
